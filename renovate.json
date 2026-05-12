@@ -21,8 +21,7 @@
   "vulnerabilityAlerts": {
     "enabled": true,
     "labels": ["security"],
-    "schedule": ["at any time"],
-    "prPriority": 10
+    "schedule": ["at any time"]
   },
   "ignorePaths": ["**/node_modules/**", "**/dist/**"],
   "ignoreDeps": [],
