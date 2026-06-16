@@ -11,7 +11,7 @@
   "labels": ["dependencies"],
   "rangeStrategy": "bump",
   "minimumReleaseAge": "3 days",
-  "schedule": ["before 6am on monday"],
+  "rebaseWhen": "behind-base-branch",
   "timezone": "Europe/Berlin",
   "prConcurrentLimit": 5,
   "postUpdateOptions": ["pnpmDedupe"],
